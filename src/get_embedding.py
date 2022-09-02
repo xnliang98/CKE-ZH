@@ -72,6 +72,7 @@ def encode_sentence(tokenizer, model, tokens):
         # if i >= len(is_split):
         #     break
     assert len(tokens_emb) == len(is_split)
+    tokens_emb = np.array(tokens_emb)
     return tokens_emb, bertcls, cls_token
 
 def flat_list(l):
