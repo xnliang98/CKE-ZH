@@ -1,6 +1,8 @@
 # Unsupervised Keyphrase Extraction
 This is code support chinese keyphrase extraction for EMNLP 2021 paper: [Unsupervised Keyphrase Extraction by Jointly Modeling Local and Global Context](https://aclanthology.org/2021.emnlp-main.14/).
 
+This code support document length > 512.
+
 
 ## requirements
 - transformers==4.7.0
